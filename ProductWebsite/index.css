@@ -1,0 +1,83 @@
+#product-grid .txt-heading {
+    margin-bottom: 18px;
+  }
+  #button{
+    /*margin-top: 25px;
+    margin-right: 30px ;
+    display: inline-block;
+    position: absolute;
+    background-color: #D3D3D3;    
+    border: #E0E0E0 1px solid;
+    height: 2.0em;
+	width: 2.0em;
+    top:-15px;
+    text-align: center;
+    right:0;
+*/
+margin-top: 25px;
+    margin-right: 30px ;
+    display: inline-block;
+    position: absolute;
+top:-15px;
+    text-align: center;
+    right:0;
+ border: none;
+height: 26px;
+	width: 26px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+background-color: #D3D3D3;
+cursor: pointer;
+padding-bottom: 3px;
+  }
+
+  #button2{
+    height:600px;
+    width:600px;
+  }
+  
+  .form-control{
+    width:100%;/*this is where the issue with the navbar affecting the form control old codde width:25%*/
+  }
+  #boxes{
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    /*box-shadow: 10px 10px;*/
+    box-shadow: 10px 10px 5px grey;
+  }
+  .product-item {
+    float: left;
+    background: #ffffff;
+    margin: 30px 30px 0px 0px;
+    border: #E0E0E0 1px solid;
+  }
+
+  .product-image {
+    height: 155px;
+    width: 250px;
+    background-color: #FFF;
+  }
+
+  .product-title {
+    margin-bottom: 20px;
+  }
+  
+  .product-price {
+    float:left;
+    font-size: 20px;
+  }
+  
+  .cart-action {
+    float: right;
+  }
+  
+  .product-quantity {
+      padding: 5px 10px;
+      border-radius: 3px;
+      border: #E0E0E0 1px solid;
+  }
+  
+  .product-tile-footer {
+      padding: 15px 15px 0px 15px;
+      overflow: auto;
+  }
